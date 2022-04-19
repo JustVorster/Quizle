@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Quizle</title>
+		<link type='text/css' rel='stylesheet' href='style.css'/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet"></head>
+		<script src="https://randojs.com/2.0.0.js"></script>
+		<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+	<body>
+
+		<nav class="nav">
+			<div class="container">
+				<div class="logo">
+					<a href="#" onclick="refreshPage()">Quizle</a>
+				</div>
+				
+				<div id="mainListDiv" class="main_list">
+					<ul>
+						<li onclick="on()"><a>Rules</a></li>
+					</ul>
+				</div>
+				<div id="overlay" onclick="off()">
+					<div id="text">
+						<p>•Quizle is a daily general knowledge quiz consisting of 7 tougher-than-usual questions.</p><br>
+						<p>•The questions will test your knowledge base of topics ranging from Historical Events to Modern Day culture with a 
+							few off-piste questions to keep you on your toes.</p><br>
+						<p>•You will have 75 seconds to complete the daily Quizle. Should you get all the questions correct,
+							your score for the day will be your time remaining.</p><br>
+						<p>•Should you run out of time, your score will be the amount of questions you got correct.</p>
+						<div id="trademark"><p>Quizle© was created by Justin Vorster</p></div>
+					</div>
+				  </div>
+			</div>
+		</nav>
+	
+		<h1 class="heading">Q</h1>
+		<div class="lost-screen">
+		<p id="message-loss">
+			Your time has run out!
+		</p>
+	</div>
+		<div id='container'>
+			<div id='title'>
+				<h1>Quizle</h1>
+			</div>
+   			<br/>
+  			<div id='quiz'></div>
+    		<div class='button' id='next'><a href='#'>Next</a></div>
+    		<div class='button' id='prev'><a href='#'>Prev</a></div>
+    		<div class='button' id='start'><a href='#'>Start Over</a></div>
+    		<!-- <button class='' id='next'>Next</a></button>
+    		<button class='' id='prev'>Prev</a></button>
+    		<button class='' id='start'> Start Over</a></button> -->
+    	</div>
+
+		<p class="countdown-timer">
+			Your time left: <span class="timer"></span>
+		</p>
+		
+		<script type="text/javascript" src='questions.js'></script>
+		<script type='text/javascript' src='script.js'></script>
+		
+	</body>
+</html>
