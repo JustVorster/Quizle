@@ -344,17 +344,17 @@ const questions = [{
     choices: [' Japan.', ' Italy.', ' Ukraine.', ' Uzbekistan.', ' Monaco.'],
     correctAnswer: 4
 },{
-    question: 'Which country has the shortest coastline in the world?',
-    choices: [' Japan.', ' Italy.', ' Ukraine.', ' Uzbekistan.', ' Monaco.'],
+    question: 'In what year was the first-ever Wimbledon Championship held?',
+    choices: [' 1888.', ' 1887.', ' 1890.', ' 1901.', ' 1877.'],
     correctAnswer: 4
 },{
-    question: 'Which country has the shortest coastline in the world?',
-    choices: [' Japan.', ' Italy.', ' Ukraine.', ' Uzbekistan.', ' Monaco.'],
-    correctAnswer: 4
+    question: 'Who was the first human being in outer space?',
+    choices: [' Buzz Aldrin.', ' Yuri Gargarin.', ' Alan Shepard.', ' Joseph A. Walker.', ' Alexei Leonov.'],
+    correctAnswer: 1
 },{
-    question: 'Which country has the shortest coastline in the world?',
-    choices: [' Japan.', ' Italy.', ' Ukraine.', ' Uzbekistan.', ' Monaco.'],
-    correctAnswer: 4
+    question: 'Which African country was formerly known as Abyssinia?',
+    choices: [' Chad.', ' Egypt.', ' Zimbabwe.', ' Ethiopia.', ' Sudan.'],
+    correctAnswer: 3
 }];
 
 
